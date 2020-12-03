@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7174180025785BAD001FEFCD /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717417FF25785BAD001FEFCD /* MotherView.swift */; };
+		7174180325785BE3001FEFCD /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7174180225785BE3001FEFCD /* ViewRouter.swift */; };
+		7174180625785C22001FEFCD /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7174180525785C22001FEFCD /* Helper.swift */; };
+		718E367F25770627005B216F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 718E367E25770627005B216F /* GoogleService-Info.plist */; };
+		718E36E8257763FB005B216F /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718E36E7257763FB005B216F /* HomeScreenView.swift */; };
+		719F35792578A20F000835A4 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719F35782578A20E000835A4 /* Utilities.swift */; };
+		71BDF47D2576DD0C003782DA /* LoginForEdostavkaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BDF47C2576DD0C003782DA /* LoginForEdostavkaApp.swift */; };
+		71BDF47F2576DD0C003782DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BDF47E2576DD0C003782DA /* ContentView.swift */; };
+		71BDF4812576DD11003782DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BDF4802576DD11003782DA /* Assets.xcassets */; };
+		71BDF4842576DD11003782DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BDF4832576DD11003782DA /* Preview Assets.xcassets */; };
+		71BDF4952576F058003782DA /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BDF4942576F058003782DA /* SignUpView.swift */; };
+		71BDF4982576F266003782DA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BDF4972576F266003782DA /* LoginView.swift */; };
+		A8A3FBC8CBF9696665D85CEA /* Pods_LoginForEdostavka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98499DCF515D58414A32769C /* Pods_LoginForEdostavka.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0225D7E875AF59F29F25B752 /* Pods-LoginForEdostavka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginForEdostavka.debug.xcconfig"; path = "Target Support Files/Pods-LoginForEdostavka/Pods-LoginForEdostavka.debug.xcconfig"; sourceTree = "<group>"; };
+		4637CE1D3E283F11096E104F /* Pods-LoginForEdostavka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginForEdostavka.release.xcconfig"; path = "Target Support Files/Pods-LoginForEdostavka/Pods-LoginForEdostavka.release.xcconfig"; sourceTree = "<group>"; };
+		717417FF25785BAD001FEFCD /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
+		7174180225785BE3001FEFCD /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		7174180525785C22001FEFCD /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		718E367E25770627005B216F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		718E36E7257763FB005B216F /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		719F35782578A20E000835A4 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = "Auth Views/Utilities.swift"; sourceTree = "<group>"; };
+		71BDF4792576DD0C003782DA /* LoginForEdostavka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginForEdostavka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BDF47C2576DD0C003782DA /* LoginForEdostavkaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForEdostavkaApp.swift; sourceTree = "<group>"; };
+		71BDF47E2576DD0C003782DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		71BDF4802576DD11003782DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71BDF4832576DD11003782DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		71BDF4852576DD11003782DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71BDF4942576F058003782DA /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		71BDF4972576F266003782DA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		98499DCF515D58414A32769C /* Pods_LoginForEdostavka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginForEdostavka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71BDF4762576DD0C003782DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A3FBC8CBF9696665D85CEA /* Pods_LoginForEdostavka.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		416EF2FC7FEBD8B0F090D560 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0225D7E875AF59F29F25B752 /* Pods-LoginForEdostavka.debug.xcconfig */,
+				4637CE1D3E283F11096E104F /* Pods-LoginForEdostavka.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		717418082578602B001FEFCD /* Auth Views */ = {
+			isa = PBXGroup;
+			children = (
+				71BDF47E2576DD0C003782DA /* ContentView.swift */,
+				71BDF4942576F058003782DA /* SignUpView.swift */,
+				71BDF4972576F266003782DA /* LoginView.swift */,
+			);
+			path = "Auth Views";
+			sourceTree = "<group>";
+		};
+		7174180B2578606D001FEFCD /* EnviromentObject */ = {
+			isa = PBXGroup;
+			children = (
+				717417FF25785BAD001FEFCD /* MotherView.swift */,
+				7174180225785BE3001FEFCD /* ViewRouter.swift */,
+				7174180525785C22001FEFCD /* Helper.swift */,
+			);
+			path = EnviromentObject;
+			sourceTree = "<group>";
+		};
+		71BDF4702576DD0C003782DA = {
+			isa = PBXGroup;
+			children = (
+				71BDF47B2576DD0C003782DA /* LoginForEdostavka */,
+				71BDF47A2576DD0C003782DA /* Products */,
+				416EF2FC7FEBD8B0F090D560 /* Pods */,
+				91BA3D8A073F201C40D8BDBD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71BDF47A2576DD0C003782DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71BDF4792576DD0C003782DA /* LoginForEdostavka.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71BDF47B2576DD0C003782DA /* LoginForEdostavka */ = {
+			isa = PBXGroup;
+			children = (
+				71BDF47C2576DD0C003782DA /* LoginForEdostavkaApp.swift */,
+				718E36E7257763FB005B216F /* HomeScreenView.swift */,
+				719F35782578A20E000835A4 /* Utilities.swift */,
+				717418082578602B001FEFCD /* Auth Views */,
+				7174180B2578606D001FEFCD /* EnviromentObject */,
+				71BDF4802576DD11003782DA /* Assets.xcassets */,
+				71BDF4852576DD11003782DA /* Info.plist */,
+				718E367E25770627005B216F /* GoogleService-Info.plist */,
+				71BDF4822576DD11003782DA /* Preview Content */,
+			);
+			path = LoginForEdostavka;
+			sourceTree = "<group>";
+		};
+		71BDF4822576DD11003782DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				71BDF4832576DD11003782DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91BA3D8A073F201C40D8BDBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98499DCF515D58414A32769C /* Pods_LoginForEdostavka.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71BDF4782576DD0C003782DA /* LoginForEdostavka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BDF4882576DD11003782DA /* Build configuration list for PBXNativeTarget "LoginForEdostavka" */;
+			buildPhases = (
+				74A3281FDD492BEA2ABD9ED8 /* [CP] Check Pods Manifest.lock */,
+				71BDF4752576DD0C003782DA /* Sources */,
+				71BDF4762576DD0C003782DA /* Frameworks */,
+				71BDF4772576DD0C003782DA /* Resources */,
+				614718F9FA35F6B35E4D175F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginForEdostavka;
+			productName = LoginForEdostavka;
+			productReference = 71BDF4792576DD0C003782DA /* LoginForEdostavka.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71BDF4712576DD0C003782DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					71BDF4782576DD0C003782DA = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 71BDF4742576DD0C003782DA /* Build configuration list for PBXProject "LoginForEdostavka" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71BDF4702576DD0C003782DA;
+			productRefGroup = 71BDF47A2576DD0C003782DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71BDF4782576DD0C003782DA /* LoginForEdostavka */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71BDF4772576DD0C003782DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BDF4842576DD11003782DA /* Preview Assets.xcassets in Resources */,
+				71BDF4812576DD11003782DA /* Assets.xcassets in Resources */,
+				718E367F25770627005B216F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		614718F9FA35F6B35E4D175F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginForEdostavka/Pods-LoginForEdostavka-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginForEdostavka/Pods-LoginForEdostavka-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginForEdostavka/Pods-LoginForEdostavka-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74A3281FDD492BEA2ABD9ED8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginForEdostavka-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71BDF4752576DD0C003782DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BDF47F2576DD0C003782DA /* ContentView.swift in Sources */,
+				7174180325785BE3001FEFCD /* ViewRouter.swift in Sources */,
+				7174180025785BAD001FEFCD /* MotherView.swift in Sources */,
+				71BDF4952576F058003782DA /* SignUpView.swift in Sources */,
+				718E36E8257763FB005B216F /* HomeScreenView.swift in Sources */,
+				71BDF4982576F266003782DA /* LoginView.swift in Sources */,
+				719F35792578A20F000835A4 /* Utilities.swift in Sources */,
+				71BDF47D2576DD0C003782DA /* LoginForEdostavkaApp.swift in Sources */,
+				7174180625785C22001FEFCD /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		71BDF4862576DD11003782DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71BDF4872576DD11003782DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71BDF4892576DD11003782DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0225D7E875AF59F29F25B752 /* Pods-LoginForEdostavka.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LoginForEdostavka/Preview Content\"";
+				DEVELOPMENT_TEAM = RQSZAPU299;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LoginForEdostavka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yantsenter.LoginForEdostavka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71BDF48A2576DD11003782DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4637CE1D3E283F11096E104F /* Pods-LoginForEdostavka.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LoginForEdostavka/Preview Content\"";
+				DEVELOPMENT_TEAM = RQSZAPU299;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LoginForEdostavka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yantsenter.LoginForEdostavka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71BDF4742576DD0C003782DA /* Build configuration list for PBXProject "LoginForEdostavka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BDF4862576DD11003782DA /* Debug */,
+				71BDF4872576DD11003782DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71BDF4882576DD11003782DA /* Build configuration list for PBXNativeTarget "LoginForEdostavka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BDF4892576DD11003782DA /* Debug */,
+				71BDF48A2576DD11003782DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71BDF4712576DD0C003782DA /* Project object */;
+}

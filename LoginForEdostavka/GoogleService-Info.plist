@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>669008564064-8ku01t0tgtj5iib1sc5997fg4i4qb2ls.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.669008564064-8ku01t0tgtj5iib1sc5997fg4i4qb2ls</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD2R3W6nInIOm7JrnbLjf7iM2HbEqalZDE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>669008564064</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>yantsenter.LoginForEdostavka</string>
+	<key>PROJECT_ID</key>
+	<string>loginforedostavkatest</string>
+	<key>STORAGE_BUCKET</key>
+	<string>loginforedostavkatest.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:669008564064:ios:8bad7d7ae02140e9261805</string>
+	<key>DATABASE_URL</key>
+	<string>https://loginforedostavkatest.firebaseio.com</string>
+</dict>
+</plist>

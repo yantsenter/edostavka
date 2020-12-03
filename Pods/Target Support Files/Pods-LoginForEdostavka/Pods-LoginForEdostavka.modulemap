@@ -1,0 +1,6 @@
+framework module Pods_LoginForEdostavka {
+  umbrella header "Pods-LoginForEdostavka-umbrella.h"
+
+  export *
+  module * { export * }
+}
