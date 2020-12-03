@@ -11,7 +11,7 @@ struct HomeScreenView: View {
     @EnvironmentObject var viewRouter: ViewRouter
     
     var body: some View {
-        Text("Welcome to the home screffen")
+        Text("Welcome to the away screffen")
     }
 }
 
